@@ -165,7 +165,7 @@ void dateRange(){
         if (countd.month == 2) { if ( countd.year % 4 == 0) monthdays++; }
         
         if (countd.month == 1) jan = 1;
-        else jan = 0;
+        else jan = 0;
         
         while ( current < monthdays ) { // count until end of the month
             if ( dateEquals(countd, end)) { break; }  // or EEEND OF THE LINE
